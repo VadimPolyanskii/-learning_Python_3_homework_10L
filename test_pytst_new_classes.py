@@ -2,7 +2,7 @@ import pytest
 from new_class import NumberCalculation
 
 
-class TestNumberCalculation:
+class TestNumberCalculationPytest:
 
     def setup(self):
         """
