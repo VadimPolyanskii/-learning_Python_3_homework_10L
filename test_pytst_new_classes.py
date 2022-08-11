@@ -27,8 +27,13 @@ class TestNumberCalculationPytest:
         assert self.obj.get_y < 50
 
     def test_x_setter(self):
-        self.obj.get_x = 30
-        assert self.obj.get_x == 30
+        self.obj.get_x = 70
+        assert self.obj.get_x == 70
+
+        # with pytest.raises(ValueError):
+        #     # Код, вызывающий данную ошибку!
+        #     self.obj.get_x = 30
+
 
 
 
