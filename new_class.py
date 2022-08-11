@@ -31,7 +31,7 @@ class NumberCalculation:
         if (x > 0) & (x < 20):
             self._x = x
         else:
-            raise ValueError('Числа должны быть от 0 до 20!')
+            raise ValueError('Числа должны быть от 0 до 20!!!')
 
     # Получим доступ к инкапсулированному значению y через декоратор доступа
     @property
